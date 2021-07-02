@@ -1,0 +1,2 @@
+include ':app', ':VerifySdk'
+rootProject.name='A2 OIDC AZN demo'

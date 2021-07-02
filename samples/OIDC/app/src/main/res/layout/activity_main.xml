@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ibm.security.demoapps.ci.a2oidcazndemo.MainActivity"
+    android:background="@color/background_dark">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="This example demonstrates acquiring an OAuth token with AZN code flow from IBM Cloud Identity "
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/etClientId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:backgroundTint="@android:color/darker_gray"
+        android:hint="client id"
+        android:text="1fabe730-83ac-423e-be95-831d8b005300"
+        android:inputType="textNoSuggestions"
+        android:shadowColor="@android:color/darker_gray"
+        android:singleLine="true"
+        android:textAlignment="textStart"
+        android:textColor="@color/white"
+        android:textColorHint="?android:attr/textColorHintInverse"
+        android:textColorLink="@color/white" />
+
+    <EditText
+        android:id="@+id/etClientSecret"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:ems="10"
+        android:hint="client secret"
+        android:text="857lBPPveZ"
+        android:inputType="textNoSuggestions"
+        android:backgroundTint="@android:color/darker_gray"
+        android:shadowColor="@android:color/darker_gray"
+        android:singleLine="true"
+        android:textAlignment="textStart"
+        android:textColor="@color/white"
+        android:textColorHint="?android:attr/textColorHintInverse"
+        android:textColorLink="@color/white"
+        android:layout_below="@+id/etClientId"
+        android:layout_alignStart="@+id/etClientId"
+        android:layout_alignEnd="@+id/etClientId" />
+
+    <EditText
+        android:id="@+id/etHostname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:ems="10"
+        android:hint="hostname or tenant name"
+        android:text="verify.ice.ibmcloud.com"
+        android:inputType="textNoSuggestions"
+        android:backgroundTint="@android:color/darker_gray"
+        android:shadowColor="@android:color/darker_gray"
+        android:singleLine="true"
+        android:textAlignment="textStart"
+        android:textColor="@color/white"
+        android:textColorHint="?android:attr/textColorHintInverse"
+        android:textColorLink="@color/white"
+        android:layout_below="@+id/etClientSecret"
+        android:layout_alignStart="@+id/etClientSecret"
+        android:layout_alignEnd="@+id/etClientSecret" />
+
+
+    <Button
+        android:id="@+id/button_get_token"
+        android:layout_width="256dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="82dp"
+        android:text="Get OAuth Token"
+        android:layout_marginBottom="20dp"
+        android:theme="@style/PrimaryButton"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:onClick="onClickUseGetOAuthToken"/>
+
+</RelativeLayout>
