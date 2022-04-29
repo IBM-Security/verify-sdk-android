@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ibm.security.demoapps.qrcodescandemo.MainActivity"
+    android:background="@color/background_dark">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="This example demonstrates\na QR code scan"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/button_get_token"
+        android:layout_width="256dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="82dp"
+        android:text="Scan QR Code"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="12dp"
+        android:theme="@style/PrimaryButton"
+        android:layout_centerHorizontal="true"
+        android:onClick="onClickScanQRCode"/>
+
+</RelativeLayout>
