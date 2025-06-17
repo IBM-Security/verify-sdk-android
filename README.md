@@ -5,8 +5,13 @@
 ![Android Version](https://img.shields.io/badge/Android%20API-33-green.svg)
 
 This repository contains sample apps and code snippets to showcase and provide guidance when developing mobile applications with the IBM Security Verify SDK. The following steps will help you get started.
+<br/>
+
+**NOTE:** An open-source version of the IBM Verify SDK for Android is available at https://github.com/ibm-security-verify/verify-sdk-android
+
 
 [Looking for the iOS version?](https://github.com/ibm-security/verify-sdk-ios)
+
 <br/>
 
 ## ① Getting the SDK
