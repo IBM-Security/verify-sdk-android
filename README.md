@@ -1,3 +1,9 @@
+⚠️
+**This SDK is deprecated. The IBM Security Verify SDK for Android in this repository is no longer under active development. Its successor is the IBM Verify SDK for Android, available at https://github.com/ibm-verify/verify-sdk-android. New and existing projects should migrate to Verify SDK 3.**
+
+----
+
+
 # IBM Security Verify SDK for Android
 
 [![SDK Version](https://img.shields.io/badge/IBM%20Security%20Verify%20SDK-2.1.9-blue.svg)](https://exchange.xforce.ibmcloud.com/hub/IdentityandAccess)
